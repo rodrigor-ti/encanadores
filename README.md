@@ -8,7 +8,7 @@
 </ol>
 
 <div>
-<img max-width="100%" src="https://github.com/devNeiBarbosa/Projeto-site-responsive/blob/main/img/banner%20apresenta%C3%A7%C3%A3o.png?raw=true"/>
+<img max-width="100%" src="https://raw.githubusercontent.com/rodrigor-ti/encanadores/refs/heads/main/src/images/banner%20apresenta%C3%A7%C3%A3o.png"/>
 </div>
 
 <br>
