@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/responsive.css">
+    <title>Irmãos Encanadores</title>
+</head>
+
+<body>
+    <div class="container-principal">
+        <nav>
+            <div class="navbar">
+                <img src="/src/images/logo-header.png" width="100px" class="navbar-image">
+                <a href="/index.html"><p class="navbar-text">Início</p></a>
+                <p class="navbar-text">Nossos Serviços</p>
+                <p class="navbar-text" onclick="mostrarFormFaleConosco()">Fale Conosco</p>
+            </div>
+        </nav>
+
+                <div class="container">
+                <div class="left">
+                    <img src="/src/images/logo.png" alt="logo irmaos mario" class="logo-mario" width="500px">
+
+                            <h1>Encanadores Mario & Luigi - Resolvemos Seus Problemas Hidráulicos Com Estilo!</h1>
+                    <ul>
+                        <li>Você já se encontrou em uma situação de emergência com encanamento?</li>
+                        <li>Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar?</li>
+                    </ul>
+                    <div class="left-p">
+                        <p>Não se preocupe, porque estamos aqui para salvar o dia!</p>
+                        <p>Apresentamos a vocês os encanadores mais famosos
+                            do Reino dos Cogumelos - Mario e Luigi!</p>
+                    </div>
+                    <button class="button-contact" onclick="mostrarForm()"><b>Entre em contato</b></button>
+                </div>
+
+                <div class="rigth">
+                    <img src="/src/images/mario.png" alt="irmaos mario e luigi" class="irmaos-bros" width="500px">
+                </div>
+            </div>
+    
+        <a href="#"><img src="/src/images/whatsicon.svg" alt="whatsapp icon" class="whatsapp-icon" width="50px"></a>
+
+        <div>
+            <video src="/src/images/video.mp4" autoplay muted loop></video>
+            <div class="mascara-video"></div>
+        </div>
+
+        <form 
+            class="fale-conosco-form"
+            action="https://formcarry.com/s/8zB89ItCEnY"
+            method="POST"
+            enctype="multipart/form-data">
+                <input placeholder="Seu Nome" type="text" name="nome">
+                <input placeholder="Seu WhatsApp" type="tel" name="telefone">
+                <input placeholder="Seu melhor E-mail" type="email" name="email">
+                <textarea placeholder="Digite aqui o seu problema..." name="problema"></textarea>
+                <button class="button-fomr" type="submit"><b>Pedir Orçamento</b></button>
+        </form>
+
+        <div class="background-form" onclick="esconderForm()"></div>
+    </div>
+    </body>
+
+<script src="/src/scripts/script.js"></script>
+
+</html>
