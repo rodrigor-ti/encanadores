@@ -7,18 +7,25 @@
 <li>Compreender os ensinamentos básicos do JavaScript e aplica-los, deixando o site funcional.</li>
 </ol>
 
-<div>
+
+🎮🎮Irmãos Encanadores 🎯💻
+
+Este é um projeto de um jogo simples baseado no filme Detona Ralph. O objetivo do jogo é acertar o Ralph nas janelas em que ele aparece até o tempo ou suas vidas acabarem. O projeto do jogo foi criado utilizando apenas HTML, CSS e JavaScript. Durante o desenvolvimento, foi explorado eventos JavaScript e a manipulação de áudios para criar uma experiência de jogo divertida e interativa.
+
+
 <img max-width="100%" src="https://raw.githubusercontent.com/rodrigor-ti/encanadores/refs/heads/main/src/images/banner%20apresenta%C3%A7%C3%A3o.png"/>
-</div>
 
-<br>
-<i><h3>Tecnologias Utilizadas para o desenvolvimento do site:</h3></i>
-<div>
-    <img align="center" alt="html" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"/>
-    <img align="center" alt="css" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
-    <img align="center" alt="java script" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</div>
-<br>
+Funcionalidades 🎯💻
+Jogo interativo: O Ralph aparece aleatoriamente em diferentes janelas, e o jogador precisa clicar na janela correta para ganhar pontos.
+Eventos JavaScript: Utilizamos eventos de clique e temporizadores para controlar a aparição do Ralph e a interação do jogador.
+Manipulação de áudio: Efeitos sonoros são tocados sempre que o Ralph é acertado ou quando o jogador erra.
+Pontuação dinâmica: A cada acerto, a pontuação do jogador aumenta, e o objetivo é conseguir o máximo de pontos dentro do tempo limite.
 
+Tecnologias Utilizadas 🎯💻
+HTML:.
+CSS:
+JavaScript
+
+Experiemente o jogo 🎮: Clique para Jogar.
 
 
